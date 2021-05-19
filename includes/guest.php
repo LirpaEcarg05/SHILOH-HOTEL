@@ -5,7 +5,7 @@
 * Date Created:	Nov. 2, 2013
 * Revised By:		
 */
-require_once(LIB_PATH.DS.'database.php');
+require_once('database.php');
 class Guest{
 	
 	protected static $tbl_name = "tblguest";
