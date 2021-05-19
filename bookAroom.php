@@ -85,7 +85,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
 
                     $stats = $mydb->executeQuery();
                     $rows = mysqli_fetch_assoc($stats);
-                   x
+                   
 
                      
                     //$availRoom = $result->ROOMNUM;
