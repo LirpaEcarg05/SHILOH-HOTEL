@@ -57,7 +57,7 @@ $result=$guest->single_guest($guestid);*/
            <?php echo $phone;?> <br/>
            <!-- <?php echo $email;?><br/><br/> -->
            Dear Sir/Madam. <?php echo $last;?>,<br/><br/>
-           Greetings from dragonhouse Beach Resorts!<br/><br/>
+           Greetings from SHILOH Beach Resorts!<br/><br/>
            Please check the details of your reservation:<br/><br/>
            <strong>GUEST NAME(S):</strong> <?php echo $name.' '.$last;?>
 
@@ -152,12 +152,12 @@ $result=$guest->single_guest($guestid);*/
  <li>Copy of BDO Payment.</li>
  <li>Authorization letter issued by BDO payer for guest/s whose transactions were paid for in his/ her behalf.</li>
  </ul>
-If you have any questions, please email at dragonhouse.com or call (034) 4713 – 135
+If you have any questions, please email at shiloh.com or call (034) 4713 – 135
 <br/><br/>
-Thank you for choosing Dragon House
+Thank you for choosing SHILOH
 <br/><br/>
 Respectfully your,<br/><br/>
-Dragon House
+SHILOH
 <br/><br/><br/>
 </span>
 <div id="divButtons" name="divButtons">

@@ -93,7 +93,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
 
             if($resNum==1){
 
-             if($status=='Confirmed'){
+             if($stats=='Confirmed'){
                 $btn =  '<div style="margin-top:10px; color: rgba(0,0,0,1); font-size:16px;"><strong>Fully Reserve!</strong></div>';
                  $img_title = ' 
 
@@ -103,7 +103,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
 
 
                     ';
-              }elseif($status=='Checkedin'){
+              }elseif($stats=='Checkedin'){
                 $btn =  '<div style="margin-top:10px; color: rgba(0,0,0,1); font-size:16px;"><strong>Fully Book!</strong></div>';
                  $img_title = ' 
 

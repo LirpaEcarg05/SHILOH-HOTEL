@@ -210,6 +210,10 @@ admin_logged_in();
 						<a href="<?php echo WEB_ROOT; ?>admin/mod_reports/index.php" class="text-decoration-none text-white">Reports</a>
 					</li>
 
+					<li class="<?php echo (currentpage() == 'mod_roombookings') ? "nav-item active  list-group-item list-group-item-action " : false; ?>" style="margin-right:20px;">
+						<a href="<?php echo WEB_ROOT; ?>admin/mod_roombookings/monthlyRoomBooking.php" class="text-decoration-none text-white">Bookings</a>
+					</li>
+
 					<?php if ($_SESSION['ADMIN_UROLE'] == "Administrator") { ?>
 
 					<li class="<?php echo (currentpage() == 'mod_users') ? "nav-item active  list-group-item list-group-item-action " : false; ?>" style="margin-right:20px; margin-top:5px;">

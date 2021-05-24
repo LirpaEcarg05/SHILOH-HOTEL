@@ -143,10 +143,10 @@ redirect('index.php?view=payment');
 			              <div class="form-group">
 			            <div class="col-md-12">
 			              <label class="col-md-4 control-label" for=
-			              "caddress">ADDRESS:</label>
+			              "caddress">PAYMENT:</label>
 
 			              <div class="col-md-12">
-			                <input name="caddress" type="text" class="form-control input-sm" id="caddress" />
+			                <input name="caddress" type="text" placeholder="Palawan/Paypal/Paymaya/BDO" class="form-control input-sm" id="caddress" />
 			              </div>
 			            </div>
 			          </div>
