@@ -1,6 +1,6 @@
 <div id="page-content-wrapper" style=" overflow: auto; margin-top:50px; width:100%;  margin-left:400px;">
 
-  <div class="container text-white justify-content-center float-right">
+  <div class="container text-dark justify-content-center float-right">
 
     <div class="row justify-content-center">
       <div class="col-lg-12">

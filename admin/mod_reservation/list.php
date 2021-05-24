@@ -4,12 +4,12 @@
 
 	?>
 
-	<div class="container mt-4  text-white">
+	<div class="container mt-4  text-dark">
 		<!-- <div class="panel panel-primary"> -->
 
 		<h1 class="text-center mb-3">RESERVATIONS</h1>
 		<form method="post" action="processreservation.php?action=delete">
-			<table id="table" class="table table-striped text-center  text-white" cellspacing="0">
+			<table id="table" class="table table-striped text-center  text-dark" cellspacing="0">
 				<thead>
 					<tr>
 						<td width="5%"><strong>No.</strong></td>

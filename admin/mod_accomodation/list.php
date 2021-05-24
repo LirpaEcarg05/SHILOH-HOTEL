@@ -1,5 +1,5 @@
 <div id="page-content-wrapper" style=" overflow: auto; margin-top:50px; width:100%;  margin-left:350px;">
-	<div class="container mt-4 text-white">
+	<div class="container mt-4 text-dark">
 		<?php
 		check_message();
 
@@ -12,7 +12,7 @@
 					<a href="index.php?view=add" class="btn btn-success rounded mr-sm-2">New</a>
 					<button type="submit" class="btn btn-danger rounded" name="delete"><span class="glyphicon glyphicon-trash"></span> Delete Selected</button>
 				</div>
-				<table id="example" class="table table-striped  text-white" cellspacing="0" style="font-size: 20px;">
+				<table id="example" class="table table-striped  text-dark" cellspacing="0" style="font-size: 20px;">
 
 					<thead>
 						<tr>
@@ -34,8 +34,8 @@
 							echo '<tr>';
 
 							echo '<td width="50%" align="left"><input type="checkbox" name="selector[]" id="selector[]" value="' . $result->ACCOMID . '"/>
-				  				<a class="text-decoration-none text-white" href="index.php?view=edit&id=' . $result->ACCOMID . '">  <span class="glyphicon glyphicon-pencil">
-				  				<a class="text-decoration-none text-white" href="index.php?view=view&id=' . $result->ACCOMID . '">' . ' ' . $result->ACCOMODATION . '</a></td>';
+				  				<a class="text-decoration-none text-dark" href="index.php?view=edit&id=' . $result->ACCOMID . '">  <span class="glyphicon glyphicon-pencil">
+				  				<a class="text-decoration-none text-dark" href="index.php?view=view&id=' . $result->ACCOMID . '">' . ' ' . $result->ACCOMODATION . '</a></td>';
 							echo '<td>' . $result->ACCOMDESC . '</td>';
 							echo '</tr>';
 						}
