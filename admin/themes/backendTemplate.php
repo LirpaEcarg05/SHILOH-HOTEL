@@ -172,11 +172,17 @@
 admin_logged_in();
 ?>
 
-<body class="bg-secondary text-dark">
+<body class="bg-light text-dark">
 	<!--Header-->
 	<div class="d-flex" id="wrapper" style="margin-top: -70px;">
+<<<<<<< HEAD
 		<div class="bg-dark " style="width:20%; height:100vh; display:block; overflow:hidden; position:fixed;" id="sidebar-wrapper">
 			<a class="navbar-brand text-white ml-4" style="font-size: 40px; font-family:Georgia, 'Times New Roman', Times, serif;" href="#"><strong>SHILOH</strong></a>
+=======
+		<div class="bg-dark " style="width:18%; height:100vh; display:block; overflow:hidden; position:fixed;" id="sidebar-wrapper">
+		<br>
+			<a class="navbar-brand text-white ml-4" style="font-size: 40px; font-family:Georgia, 'Times New Roman', Times, serif;" href="#"><strong>SHILOH <br> HOTEL</strong></a>
+>>>>>>> dece9050a451427b86c114146b0b9f6f14225c41
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -184,17 +190,29 @@ admin_logged_in();
 				<ul class="navbar-nav mr-auto">
 
 					<li class="<?php echo (currentpage() == 'index.php') ? "nav-item active  list-group-item list-group-item-action " : false; ?>" style="margin-right:20px;">
+<<<<<<< HEAD
 						<a href="<?php echo WEB_ROOT; ?>admin/index.php" class="text-decoration-none text-white "><i class="fa fa-home " aria-hidden="true"></i> Home </a>
+=======
+						<a href="<?php echo WEB_ROOT; ?>admin/index.php" class="text-decoration-none text-white "><i class="fa fa-home" aria-hidden="true"></i> Home </a>
+>>>>>>> dece9050a451427b86c114146b0b9f6f14225c41
 					</li>
-					
+					<br>
 					<li class="<?php echo (currentpage() == 'mod_room') ? "nav-item active list-group-item list-group-item-action " : false; ?>" style="margin-right:20px;">
+<<<<<<< HEAD
 						<a href="<?php echo WEB_ROOT; ?>admin/mod_room/index.php" class="text-decoration-none text-white"><img style="width:30px;border-radius:50%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyytG_nK_bNBODtVsyYn6VWVMVy1orAtmwQQ&usqp=CAU" alt="" srcset=""> Rooms </a>
+=======
+						<a href="<?php echo WEB_ROOT; ?>admin/mod_room/index.php" class="text-decoration-none text-white"><i class="fa fa-bed" aria-hidden="true"></i>  Rooms </a>
+>>>>>>> dece9050a451427b86c114146b0b9f6f14225c41
 					</li>
-
+					<br>
 					<li class="<?php echo (currentpage() == 'mod_accomodation') ? "nav-item active  list-group-item list-group-item-action " : false; ?>" style="margin-right:20px;">
+<<<<<<< HEAD
 						<a href="<?php echo WEB_ROOT; ?>admin/mod_accomodation/index.php" class="text-decoration-none text-white"><img style="width:30px;border-radius:50%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB8mxyUR2mQda11JmfCPZrSzcvMJVfLuHvW3SDTdVDNwktyZgYOYVv-QCzI-9JHZ36tcM&usqp=CAU" alt="" srcset=""> Accomodation</a>
+=======
+						<a href="<?php echo WEB_ROOT; ?>admin/mod_accomodation/index.php" class="text-decoration-none text-white"><i class="fa fa-building" aria-hidden="true"></i>Accomodation</a>
+>>>>>>> dece9050a451427b86c114146b0b9f6f14225c41
 					</li>
-
+					<br>
 					<li class="<?php echo (currentpage() == 'mod_reservation') ? "nav-item active  list-group-item list-group-item-action " : false; ?>" style="margin-right:20px;">
 						<?php
 						$query = "SELECT count(*) as 'Total' FROM `tblpayment` WHERE `STATUS`='Pending'";
@@ -202,20 +220,28 @@ admin_logged_in();
 						$cur = $mydb->loadResultList();
 						foreach ($cur as $result) {
 						?>
+<<<<<<< HEAD
 							<a href="<?php echo WEB_ROOT; ?>admin/mod_reservation/index.php" class="text-decoration-none text-white"><i class="fa fa-check "></i> Reservation <?php echo  isset($result->Total) ? '<span style="color:red">(' . $result->Total . ')</span>' : ''; ?> </a>
+=======
+							<a href="<?php echo WEB_ROOT; ?>admin/mod_reservation/index.php" class="text-decoration-none text-white"><i class="fa fa-calendar" aria-hidden="true"></i>Reservation <?php echo  isset($result->Total) ? '<span style="color:red">(' . $result->Total . ')</span>' : ''; ?> </a>
+>>>>>>> dece9050a451427b86c114146b0b9f6f14225c41
 						<?php } ?>
 					</li>
-
+					<br>
 					<li class="<?php echo (currentpage() == 'mod_reports') ? "nav-item active  list-group-item list-group-item-action " : false; ?>" style="margin-right:20px;">
+<<<<<<< HEAD
 						<a href="<?php echo WEB_ROOT; ?>admin/mod_reports/index.php" class="text-decoration-none text-white"><i class="fa fa-file "></i> Reports</a>
+=======
+						<a href="<?php echo WEB_ROOT; ?>admin/mod_reports/index.php" class="text-decoration-none text-white"><i class="fa fa-line-chart" aria-hidden="true"></i>Reports</a>
+>>>>>>> dece9050a451427b86c114146b0b9f6f14225c41
 					</li>
-
+					<br>
 					<?php if ($_SESSION['ADMIN_UROLE'] == "Administrator") { ?>
 
 					<li class="<?php echo (currentpage() == 'mod_users') ? "nav-item active  list-group-item list-group-item-action " : false; ?>" style="margin-right:20px; margin-top:5px;">
 						<a href="<?php echo WEB_ROOT; ?>admin/mod_users/index.php" class="text-decoration-none text-white"><i class="fa fa-user-circle " style='font-size:26px'></i> Users</a>
 					</li>
-
+					<br>
 					<?php } ?>
 					<li class="<?php echo (currentpage() == '../logout.php') ? "nav-item active  list-group-item list-group-item-action " : false; ?>" style="margin-right:20px;">
 					<button type="button" class="btn bg-transparent border-0" style="font-size:25px;" data-toggle="modal" data-target="#exampleModal"><a class="toggle-modal text-decoration-none text-white" style="margin-left: -13px;"><i class="fa fa-lock" style="font-size:36px;"></i> Logout</a></button>

@@ -1,5 +1,5 @@
 <div id="page-content-wrapper" style=" overflow: auto; margin-top:50px; width:100%;  margin-left:280px;">
-  <div class="container text-white">
+  <div class="container text-dark">
 
     <div class="row justify-content-center ">
       <div class="col-lg-12">

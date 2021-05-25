@@ -14,15 +14,15 @@ $mydb->setQuery($query);
 $res = $mydb->loadSingleResult();
 
 if ($res->STATUS == 'Confirmed') {
-  $stats = '<li class="next list-unstyled"><a class ="btn btn-primary text-white text-decoration-none mt-2" href="' . WEB_ROOT . 'admin/mod_reservation/controller.php?action=checkin&code=' . $res->CONFIRMATIONCODE .
+  $stats = '<li class="next list-unstyled"><a class ="btn btn-primary text-dark text-decoration-none mt-2" href="' . WEB_ROOT . 'admin/mod_reservation/controller.php?action=checkin&code=' . $res->CONFIRMATIONCODE .
     '">Confirmed &rarr;</a></li>';
 } elseif ($res->STATUS == 'Checkedin') {
-  $stats = '<li class="next list-unstyled"><a class ="btn btn-primary text-white text-decoration-none mt-2" href="' . WEB_ROOT . 'admin/mod_reservation/controller.php?action=checkout&code=' . $res->CONFIRMATIONCODE .
+  $stats = '<li class="next list-unstyled"><a class ="btn btn-primary text-dark text-decoration-none mt-2" href="' . WEB_ROOT . 'admin/mod_reservation/controller.php?action=checkout&code=' . $res->CONFIRMATIONCODE .
     '">Checkin &rarr;</a></li>';
 } elseif ($res->STATUS == 'Checkedout') {
   $stats = "";
 } else {
-  $stats = '<li class="next list-unstyled"><a class ="btn btn-primary text-white text-decoration-none mt-2" href="' . WEB_ROOT . 'admin/mod_reservation/controller.php?action=confirm&code=' . $res->CONFIRMATIONCODE .
+  $stats = '<li class="next list-unstyled"><a class ="btn btn-primary text-dark text-decoration-none mt-2" href="' . WEB_ROOT . 'admin/mod_reservation/controller.php?action=confirm&code=' . $res->CONFIRMATIONCODE .
     '">Confirm &rarr;</a></li>';
 }
 
@@ -31,7 +31,7 @@ if ($res->STATUS == 'Confirmed') {
 ?>
 <div id="page-content-wrapper" style=" overflow: auto; margin-top:50px; width:100%;  margin-left:130px;">
 
-  <div class="container text-white">
+  <div class="container text-dark">
     <div class="row justify-content-center">
       <div class="col-lg-7">
         <h3 class="text-center ">GUEST INFORMATION</h3>
