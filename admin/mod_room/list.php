@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-<div id="page-content-wrapper" style=" overflow: auto; margin-top:50px; width:100%;  margin-left:300px;">
-	<div class="container text-white justify-content-center float-right" >
-=======
 <div id="page-content-wrapper" style=" overflow: auto; margin-top:50px; width:100%;  margin-left:180px;">
 	<div class="container text-dark justify-content-center float-right" >
->>>>>>> dece9050a451427b86c114146b0b9f6f14225c41
 		<?php
 		check_message();
 
