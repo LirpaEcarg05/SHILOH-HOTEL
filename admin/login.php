@@ -18,7 +18,7 @@ require_once("../includes/initialize.php");
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <!-- <link href="css/signin.css" rel="stylesheet"> --> -->
+    <!-- <link href="css/signin.css" rel="stylesheet"> -->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -33,7 +33,7 @@ require_once("../includes/initialize.php");
     <![endif]-->
 </head>
 
-<body style="Background:url('images/images2.jpg') repeat;">
+<body style="Background:url('https://www.claudecormier.com/wordpress/wp-content/uploads/hotel-four-seasons-et-residences-48-1.jpg') repeat;">
     <?php
     if (admin_logged_in()) {
     ?>
@@ -85,9 +85,9 @@ require_once("../includes/initialize.php");
     }
 
     ?>
-    <div class="container">
+    <div class="container ">
         <center>
-            <div class="col-md-4 col-md-offset-4 "style="margin-top:15%;">
+            <div class="col-md-4 col-md-offset-4  "style="margin-top:15%;">
                 <div class="card">
                     <div class="card-heading">
                         <h1 class="text-center text-dark">LOGIN</h1>

@@ -1,4 +1,4 @@
-<div id="page-content-wrapper" style=" overflow: auto; margin-top:50px; width:100%;  margin-left:180px;">
+<div id="page-content-wrapper" style=" overflow: auto; margin-top:50px; width:100%;  margin-left:300px;">
 	<div class="container text-white justify-content-center float-right" >
 		<?php
 		check_message();

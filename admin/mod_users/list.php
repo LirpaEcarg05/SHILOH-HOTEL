@@ -21,7 +21,7 @@
 								<input type="checkbox" name="chkall" id="chkall" onclick="return checkall('selector[]');">
 								ACCOUNT NAME
 							</th>
-							<th>USRNAME</th>
+							<th>USERNAME</th>
 							<th>TYPE</th>
 							<th>CONTACT #</th>
 
