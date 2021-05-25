@@ -23,7 +23,7 @@
 
             <div class="form-group mb-3">
               <div class="col-lg-12">
-                <label class="col-md-4 control-label" for="USERNAME">Username:</label>
+                <label class="col-md-4 control-label" for="USERNAME">Username: </label>
 
                 <div class="col-lg-12">
                   <input name="deptid" type="hidden" value="">
