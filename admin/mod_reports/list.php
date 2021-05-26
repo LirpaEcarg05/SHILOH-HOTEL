@@ -1,5 +1,5 @@
 <div id="page-content-wrapper" style=" overflow: auto; margin-top:50px; width:95%;  margin-left:280px;">
-  <div class="container text-white">
+  <div class="container text-dark">
     <div class="container">
       <h1 class="text-center mb-4">REPORTS</h1>
 
@@ -10,16 +10,18 @@
           <div class="row">
             <div class="col-xs-12">
               <h2 class="page-header">
-                <i class="fa fa-globe"></i> AMANCIO et DIEZ Reports
-                <small class="float-right">Date: <?php echo date('m/d/Y'); ?></small>
+                <i class="fa fa-globe"></i> AMANCIO and DIEZ Reports
+                &nbsp;
+                <small >Date: <?php echo date('m/d/Y'); ?></small>
               </h2>
             </div>
+            <br>
             <!-- /.col -->
           </div>
           <!-- info row -->
           <div class="row invoice-info">
             <div class="col-sm-2 invoice-col">
-
+            <br>
             </div>
             <div class="col-sm-2 invoice-col">
               Room
@@ -93,7 +95,7 @@
           <!-- Table row -->
           <div class="row">
             <div class="col-xs-12 col-md-12 table-responsive">
-              <table class="table table-striped text-white">
+              <table class="table table-striped text-dark">
                 <thead>
                   <tr>
                     <th>Guest</th>
@@ -164,8 +166,8 @@
               <div class="table-responsive ">
                 <table class="table ">
                   <tr>
-                    <th style="width:50%;color:white;">Total:</th>
-                    <td class="text-white"> &euro; <?php echo @$tot; ?></td>
+                    <th style="width:50%;color:dark;">Total:</th>
+                    <td class="text-dark"> &euro; <?php echo @$tot; ?></td>
                   </tr>
                 </table>
               </div>

@@ -253,7 +253,7 @@
         </div>
         <div class="col-lg-7">
           <div class="discover_text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cumque natus, laborum voluptatibus eligendi itaque repudiandae sit voluptas minima quia quis hic ipsum repellendus eaque cum eveniet numquam, sunt tenetur.
+            <p>The SHILOH Hotel Qianmen is located near CAFE EGAO, just a 2-minutes walk from the National Road for the BUBBLE TEA STATION. Built in 2019 it has old center charm and many rooms still feature high, crown-molded ceilings. A 2021 renovation brought all rooms and services up to modern day scratch and guestrooms come equipped with free Wi-Fi and all the usual amenities required for a comfortable stay.
              </p>
           </div>
         </div>
@@ -293,63 +293,3 @@
   </div>
 
 </div>
-<br><br><br><br>
-
-<!-- Testimonials -->
-
-<!-- <div class="testimonials">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="section_title text-center">
-          <div>Clients</div>
-          <h1>Testimonials</h1>
-        </div>
-      </div>
-    </div>
-    <div class="row testimonials_row">
-      <div class="col"> -->
-
-        <!-- Testimonials Slider -->
-        <!-- <div class="testimonials_slider_container">
-          <div class="owl-carousel owl-theme testimonials_slider"> -->
-
-            <!-- Slide -->
-            <!-- <div>
-              <div class="testimonial_text text-center">
-                <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scele risque at. Quisque eget.</p>
-              </div>
-              <div class="testimonial_author text-center">
-                <div class="testimonial_author_image"><img src="images/author_1.jpg" alt=""></div>
-                <div class="testimonial_author_name"><a href="#">Maria Smith,</a><span> Client</span></div>
-              </div>
-            </div> -->
-
-            <!-- Slide -->
-            <!-- <div>
-              <div class="testimonial_text text-center">
-                <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scele risque at. Quisque eget.</p>
-              </div>
-              <div class="testimonial_author text-center">
-                <div class="testimonial_author_image"><img src="images/author_1.jpg" alt=""></div>
-                <div class="testimonial_author_name"><a href="#">Maria Smith,</a><span> Client</span></div>
-              </div>
-            </div> -->
-
-            <!-- Slide -->
-            <!-- <div>
-              <div class="testimonial_text text-center">
-                <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scele risque at. Quisque eget.</p>
-              </div>
-              <div class="testimonial_author text-center">
-                <div class="testimonial_author_image"><img src="images/author_1.jpg" alt=""></div>
-                <div class="testimonial_author_name"><a href="#">Maria Smith,</a><span> Client</span></div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->

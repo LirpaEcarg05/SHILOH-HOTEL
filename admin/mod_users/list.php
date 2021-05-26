@@ -1,5 +1,12 @@
+<?php
+$user = $_SESSION['ADMIN_UROLE'];
+if ($user != 'Administrator'){
+	redirect('../login.php');
+}
+?>
+
 <div id="page-content-wrapper" style=" overflow: auto; margin-top:50px; width:100%;  margin-left:300px;">
-	<div class="container text-white">
+	<div class="container text-dark">
 		<?php
 		check_message();
 
@@ -12,7 +19,7 @@
 					<a href="index.php?view=add" class="btn btn-success rounded mr-sm-2">New</a>
 					<button type="submit" class="btn btn-danger rounded" name="delete"><span class="glyphicon glyphicon-trash"></span> Delete Selected</button>
 				</div>
-				<table id="example" class="table table-striped text-center text-white" cellspacing="0" style="font-size: 20px;">
+				<table id="example" class="table table-striped text-center text-dark" cellspacing="0" style="font-size: 20px;">
 
 					<thead>
 						<tr>
@@ -21,7 +28,7 @@
 								<input type="checkbox" name="chkall" id="chkall" onclick="return checkall('selector[]');">
 								ACCOUNT NAME
 							</th>
-							<th>USRNAME</th>
+							<th>USERNAME</th>
 							<th>TYPE</th>
 							<th>CONTACT #</th>
 
@@ -36,8 +43,8 @@
 							echo '<tr>';
 
 							echo '<td><input type="checkbox" name="selector[]" id="selector[]" value="' . $result->USERID . '"/>
-				  				<a class="text-decoration-none text-white" href="index.php?view=edit&id=' . $result->USERID . '">  <span class="glyphicon glyphicon-pencil">
-				  				<a class="text-decoration-none text-white" href="index.php?view=edit&id=' . $result->USERID . '">' . ' ' . $result->UNAME . '</a></td>';
+				  				<a class="text-decoration-none text-dark" href="index.php?view=edit&id=' . $result->USERID . '">  <span class="glyphicon glyphicon-pencil">
+				  				<a class="text-decoration-none text-dark" href="index.php?view=edit&id=' . $result->USERID . '">' . ' ' . $result->UNAME . '</a></td>';
 							echo '<td>' . $result->USER_NAME . '</td>';
 							echo '<td>' . $result->ROLE . '</td>';
 							echo '<td>' . $result->PHONE . '</td>';

@@ -12,7 +12,9 @@
               <h1>Amazing Hotel in front of the Sea</h1>
             </div>
             <div class="intro_text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aut, ea inventore dolores delectus quod nulla quibusdam nostrum illum ut, labore nihil nobis architecto sunt quam culpa odit magni beatae.</p>
+            <p>We welcome you to Shiloh Hotel, we are honored that you have choosen
+          to stay with us and look forward to providing you with a memorable experience. You do your
+          thing. Leave the rest to us.</p>
             </div>
            <!--  <div class="button intro_button"><a href="#">read more</a></div> -->
           </div>
@@ -52,7 +54,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Outdoor Pool</h3></div>
               <div class="offer_text">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, aperiam distinctio quidem libero harum deleniti quod itaque exercitationem inventore? Ab dolores molestiae at tempora cupiditate assumenda iste exercitationem, excepturi maiores?</p>
+              <p>Summer, we miss your balmy nights, ice cream delights, and endless light. But most of all, we miss the lounging by the pool. So we rounded up forty striking swimming pool designs to help inspire the summer days ahead. From a Tuscan-style retreat to a rustic farmhouse swimming pool and even an indoor lap pool, these design-savvy pools will make you want to dive right in and float the day away. So take a mental vacation and jot down some style notes from these striking swimming pool design ideas.</p>
               </div>
             <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
@@ -66,7 +68,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Indoor Pool</h3></div>
               <div class="offer_text">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia velit autem atque eum officiis, dolore tempora cum nihil sed quo laboriosam illo impedit harum non inventore, ab eius accusantium totam?</p>
+              <p>If you're only planning on using your pool for exercising, stick to a rectangular shape. Long and linear is the name of the game and this shape works well in the backyard too because you'll have more pool cover options with the classic shape.</p>
               </div>
             <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
@@ -80,7 +82,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Spa Zone</h3></div>
               <div class="offer_text">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque ea, delectus ut repellendus quidem aliquid sequi saepe modi in non, molestiae odit quisquam possimus? Voluptas optio voluptate quo quae dolor?</p>
+              <p>Disconnect from the outside world and lose yourself in tranquillity as you rejuvenate at our “Wellness Zone”. This eight-room spa facility offers soothing and invigorating massages, body treatments and top & toe indulgence, not to forget, the traditional Filipino massage – hilot. Pamper yourself in style and enjoy premium offers through our special membership for spa treatments.</p>
               </div>
             <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
@@ -94,7 +96,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Sports Area</h3></div>
               <div class="offer_text">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum expedita corporis, deserunt nam voluptate, officiis voluptates delectus exercitationem accusantium quo aperiam cupiditate architecto omnis perferendis, distinctio officia debitis quae labore!</p>
+              <p>Weather you are viewing or participating in sports, the competitive nature in all of us kicks in. With the desire to win, the following list of sports slogans has been used by others to continually encourage. These are meant to help your own creativity in motivating others to run that extra mile to win.</p>
               </div>
             <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
@@ -108,7 +110,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Restaurant</h3></div>
               <div class="offer_text">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed minima officiis corrupti dicta ex laudantium vel, fugit qui inventore tenetur ea obcaecati nam ratione exercitationem sit nostrum incidunt autem quibusdam.</p>
+              <p>A good restaurant sets a high standard for its food quality and ensures that guests receive the same quality with every meal. A good cook understands guests' needs and works well with the kitchen staff to ensure that guests receive their meal the way they ordered it every time.</p>
               </div>
             <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
@@ -122,7 +124,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Skybar</h3></div>
               <div class="offer_text">
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque dolorum eum enim architecto eius consequuntur itaque sunt nobis vitae iure quibusdam, at dolore explicabo modi, necessitatibus adipisci quos, obcaecati repellendus.</p>
+              <p>The Sky Bar is a unique candy bar, consisting of a sweet milk chocolate base with four different fillings, or “centers”, within it. These four fillings are vanilla, peanut, caramel, and fudge.</p>
               </div>
             <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
@@ -147,13 +149,14 @@
             <div class="section_title">
               <div style="color: gray;">Hotel</div>
               <br>
-              <h1>Discover Marimar Hotel</h1>
+              <h1>Discover SHILOH Hotel</h1>
             </div>
             <div class="discover_highlight">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, obcaecati quasi suscipit ea cum quae quisquam rerum quam deserunt. Esse at vel hic aliquid commodi nemo, sit cupiditate consequatur perferendis?</p>
+            <p>Be in a comfortable hotel, be in a Shiloh Hotel. <br> Where if you stay you will see a difference.
+            We welcome you and invite you to book now in <br> Shiloh Hotel.</p>
             </div>
             <div class="discover_text">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, esse. Commodi, quibusdam libero similique eos id sint animi vitae quam distinctio quas? Itaque est corporis dolorem iusto, soluta commodi incidunt!</p>
+            <p>The SHILOH Hotel Qianmen is located near CAFE EGAO, just a 2-minutes walk from the National Road for the BUBBLE TEA STATION. Built in 2019 it has old center charm and many rooms still feature high, crown-molded ceilings. A 2021 renovation brought all rooms and services up to modern day scratch and guestrooms come equipped with free Wi-Fi and all the usual amenities required for a comfortable stay.</p>
             </div>
             <div class="button discover_button"><a href="#">discover</a></div>
           </div>

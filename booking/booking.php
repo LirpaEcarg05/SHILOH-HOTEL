@@ -21,24 +21,24 @@ if(isset($_GET['id'])){
  
   <div id="accom-title"  > 
     <div  class="pagetitle">   
-            <h1  >Your Booking Cart 
+            <h1 class="text-dark" >Your Booking Cart 
                  
             </h1> 
      </div> 
   </div>
  
-          <table class="table" id="table">
+          <table class="table " id="table">
 
              <thead>
               <tr  bgcolor="#999999">
               <!-- <th width="10">#</th> -->
-              <th align="center" width="120">Room</th>
-              <th align="center" width="120">Check In</th>
-              <th align="center" width="120">Check Out</th> 
-              <th  width="120">Price</th> 
-              <th align="center" width="120">Nights</th> 
-              <th align="center" >Amount</th>
-              <th align="center" width="90">Action</th> 
+              <th align="center" class="text-white" width="120">Room</th>
+              <th align="center" class="text-white" width="120">Check In</th>
+              <th align="center" class="text-white" width="120">Check Out</th> 
+              <th  width="120" class="text-white">Price</th> 
+              <th align="center" class="text-white" width="120">Nights</th> 
+              <th align="center" class="text-white">Amount</th>
+              <th align="center" class="text-white" width="90">Action</th> 
             </tr> 
           </thead>
           <tbody >
@@ -78,14 +78,7 @@ if(isset($_GET['id'])){
                         echo '<td ><a href="index.php?view=processcart&id='.$result->ROOMID.'">Remove</td>';
  
                       } 
-
-
                       $payable += $_SESSION['dragonhouse_cart'][$i]['dragonhouseroomprice'] ;
-
-
- 
-
-                 
                 }
 
                 $_SESSION['pay'] = $payable;
@@ -97,9 +90,9 @@ if(isset($_GET['id'])){
 
           <tfoot>
             <tr>
-           <td colspan="6"><h4 align="right">Total:</h4></td>
+           <td colspan="6"><h4 align="right" class="text-dark">Total:</h4></td>
            <td colspan="4">
-             <h4><b>&euro;<span id="sum"><?php  echo isset($_SESSION['pay']) ?  $_SESSION['pay'] :'Your booking cart is empty.';?></span></b></h4>
+             <h4 class="text-dark"><b>&euro;<span id="sum"><?php  echo isset($_SESSION['pay']) ?  $_SESSION['pay'] :'Your booking cart is empty.';?></span></b></h4>
                          
             </td>
             </tr>

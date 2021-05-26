@@ -1,9 +1,10 @@
-<div id="page-content-wrapper" style=" overflow: auto; margin-top:50px; width:100%;  margin-left:180px;">
-	<div class="container text-white justify-content-center float-right" >
-		<?php
-		check_message();
-
-		?>
+<div id="page-content-wrapper" style=" overflow: auto; margin-top:50px; width:100%;  margin-left:280px;">
+	<div class="container mt-2 text-dark">
+		<div style="width:700px;margin-left:115px;">
+			<?php
+			check_message();
+			?>
+		</div>
 		<!-- <div class="panel panel-primary"> -->
 		<div class="container mx-auto">
 			<h3 class="text-center mb-4"><strong>LISTS OF ROOMS</strong></h3>
@@ -12,12 +13,12 @@
 					<a href="index.php?view=add" class="btn btn-success rounded mr-sm-2">New</a>
 					<button type="submit" class="btn btn-danger rounded" name="delete"><span class="glyphicon glyphicon-trash"></span> Delete Selected</button>
 				</div>
-				<table id="example" style="font-size:18px;" class="table table-striped table-hover table-responsive text-center text-white " cellspacing="0">
+				<table id="example" style="font-size:18px;" class="table table-striped table-hover table-responsive text-center text-dark " cellspacing="0">
 
 					<thead>
 						<tr>
 
-							<th class="text-center " >
+							<th class="text-center ">
 								<input type="checkbox" name="chkall" id="chkall" onclick="return checkall('selector[]');">
 								Image
 							</th>
@@ -42,7 +43,7 @@
 							echo '<td class="text-center"  width="120"><input type="checkbox" name="selector[]" id="selector[]" value="' . $result->ROOMID . '"/> 
 				  				<img src="' . $result->ROOMIMAGE . '" width="60" height="40" title="' . $result->ROOM . '"/></td>';
 							// echo '<td><a href="index.php?view=edit&id='.$result->ROOMID.'">' . ' '.$result->ROOMNUM.'</a></td>';
-							echo '<td><a class="text-decoration-none text-white" href="index.php?view=edit&id=' . $result->ROOMID . '">' . $result->ROOM . ' (' . $result->ROOMDESC . ')</a></td>';
+							echo '<td><a class="text-decoration-none text-dark" href="index.php?view=edit&id=' . $result->ROOMID . '">' . $result->ROOM . ' (' . $result->ROOMDESC . ')</a></td>';
 							// echo '<td>'. $result->ROOMDESC.'</td>';
 							// echo '<td>'. $result->ACCOMODATION.' ('. $result->ACCOMDESC.')</td>';
 							echo '<td>' . $result->ACCOMODATION . '</td>';

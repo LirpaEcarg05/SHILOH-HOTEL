@@ -11,7 +11,7 @@
               <h1>Say Hello</h1>
             </div>
             <div class="contact_text text-center">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ducimus ut odit. Facilis laboriosam tempore at quae laborum eligendi provident illo incidunt minima unde repellendus aspernatur, vero amet nisi iusto.</p>
+            <p>“This is a great location. Good service and nice breakfast.”</p>
             </div>
             <div class="contact_form_container">
               <form action="#" class="contact_form text-center">

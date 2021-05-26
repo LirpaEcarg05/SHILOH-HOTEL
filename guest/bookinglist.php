@@ -11,23 +11,13 @@ require_once ("../includes/initialize.php");
  
 		<table>
 			<tr>
-			<!-- 	<td align="center"> 
-				<img src="../images/images/5page-img1.png"  height="90px" style="-webkit-border-radius:5px; -moz-border-radius:5px;" alt="Image">
-        		</td> -->
 				<td width="87%" align="center">
-				<!-- <h3 >Monbela Tourist Inn</h3> -->
 				<h2>List Booked Rooms 
 				</h2>
 				</td>
 			</tr>
 		</table>
-		<!-- <h2 class="modal-title" id="myModalLabel">Billing Details </h2> -->
-		
- 
-<?php 
-
-		
-?> 
+		<h2 class="modal-title" id="myModalLabel">Billing Details </h2> 
 		<table id="table" class="fixnmix-table">
 			<thead>
 				<tr>

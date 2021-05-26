@@ -6,10 +6,10 @@
       <form class="form-horizontal well span6" action="controller.php?action=add" method="POST">
 
         <div class="container">
-          <h1 class="text-center text-white">NEW ACCOMODATION</h1>
+          <h1 class="text-center text-black">NEW ACCOMODATION</h1>
         </div>
 
-        <div class=" text-white" style="font-size: 20px;">
+        <div class=" text-black" style="font-size: 20px;">
           <div class="form-group mb-4">
             <div class="col-lg-12">
               <label class="col-md-4 control-label" for="ACCOMODATION">Name:</label>

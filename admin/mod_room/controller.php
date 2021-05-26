@@ -1,5 +1,6 @@
 <?php 
 require_once("../../includes/initialize.php");
+require_once("../../includes/room.php");
 $action = (isset($_GET['action']) && $_GET['action'] != '') ? $_GET['action'] : '';
 
 switch ($action) {
@@ -31,8 +32,6 @@ function doInsert(){
 				
 			}else{
 				$room = new Room();
-
- 
 
 				$res = $room->find_all_room($_POST['ROOM']);
 				

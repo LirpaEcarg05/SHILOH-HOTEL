@@ -11,10 +11,10 @@ $result = $rm->single_accomodation($_SESSION['id']);
 		<div class="container">
 
 			<div>
-				<h1 class="text-center text-white mb-3">ACCOMODATION DETAILS</h1>
+				<h1 class="text-center text-dark mb-3">ACCOMODATION DETAILS</h1>
 			</div>
 
-			<table class="table table-hover text-white">
+			<table class="table table-hover text-dark">
 
 				<td width="30"><strong>NAME </strong></td>
 				<td><?php echo ': ' . $result->ACCOMODATION; ?></td>
