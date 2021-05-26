@@ -1,3 +1,10 @@
+<?php
+$user = $_SESSION['ADMIN_UROLE'];
+if ($user != 'Administrator'){
+	redirect('../login.php');
+}
+?>
+
 <div id="page-content-wrapper" style=" overflow: auto; margin-top:50px; width:100%;  margin-left:300px;">
 	<div class="container text-dark">
 		<?php

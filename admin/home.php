@@ -1,6 +1,6 @@
 <div id="page-content-wrapper" style=" overflow: auto; margin-top:50px; width:100%;  margin-left:280px;">
   <div class="container mt-5 text-dark text-center">
-    <h1>Administrator Panel: Welcome <?php echo $_SESSION['ADMIN_UNAME']; ?></h1>
+    <h1><?php echo $_SESSION['ADMIN_UNAME']; ?> Panel: Welcome <?php echo $_SESSION['ADMIN_UNAME']; ?></h1>
 
     <br>
 

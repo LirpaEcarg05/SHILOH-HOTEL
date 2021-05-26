@@ -1,11 +1,11 @@
 <?php
-
+require_once("../../includes/room.php");
 // $_SESSION['id']=$_GET['id'];
 $rm = new Room();
 $result = $rm->single_room($_GET['id']);
 ?>
 <div id="page-content-wrapper" style=" overflow: auto; margin-top:50px; width:100%;  margin-left:380px;">
-  <div class="container mt-3 text-white">
+  <div class="container mt-3 text-dark">
     <div class="row justify-content-center">
       <div class="col-lg-10">
         <form class="form-horizontal well span6" action="controller.php?action=edit" enctype="multipart/form-data" method="POST">

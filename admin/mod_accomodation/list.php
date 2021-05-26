@@ -2,7 +2,6 @@
 	<div class="container mt-4 text-dark">
 		<?php
 		check_message();
-
 		?>
 		<!-- <div class="panel panel-primary"> -->
 		<div class="container">
