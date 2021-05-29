@@ -132,7 +132,7 @@ $_SESSION['GUESTID'] =   $lastguest;
  
  
  <div id="accom-title"  > 
-    <div  class="pagetitle">   
+    <div  class="pagetitle text-dark">   
             <h1 >Billing Details 
                  
             </h1> 
@@ -142,8 +142,10 @@ $_SESSION['GUESTID'] =   $lastguest;
 <div id="bread">
    <ol class="breadcrumb">
       <li><a href="<?php echo WEB_ROOT ;?>index.php">Home</a> </li> 
+      &nbsp;&nbsp;&nbsp;
       <li><a href="<?php echo WEB_ROOT ;?>booking/">Booking Cart</a></li>  
-       <li class="active">Booking Details</li>
+      &nbsp;&nbsp;&nbsp;
+       <li class="active text-dark">Booking Details</li>
    </ol> 
 </div> 
 
@@ -151,9 +153,9 @@ $_SESSION['GUESTID'] =   $lastguest;
 <form action="index.php?view=payment" method="post"  name="personal" >
 
  
-<div class="col-md-12">
+<div class="col-md-12 text-dark">
 
-  <div class="row">
+  <div class="row ">
     <div class="col-md-8 col-sm-4">
        <div class="col-md-12">
           <label>Name:</label>
@@ -222,9 +224,9 @@ for ($i=0; $i < $count_cart  ; $i++) {
           <td><?php echo  $result->ROOM.' '. $result->ROOMDESC; ?></td>
           <td><?php echo  date_format(date_create( $_SESSION['dragonhouse_cart'][$i]['dragonhousecheckin']),"m/d/Y"); ?></td>
           <td><?php echo  date_format(date_create( $_SESSION['dragonhouse_cart'][$i]['dragonhousecheckout']),"m/d/Y"); ?></td>
-          <td><?php echo  ' &euro;'. $result->PRICE; ?></td>
+          <td><?php echo  ' &#8369;'. $result->PRICE; ?></td>
           <td><?php echo   $_SESSION['dragonhouse_cart'][$i]['dragonhouseday']; ?></td>
-          <td><?php echo ' &euro;'.   $_SESSION['dragonhouse_cart'][$i]['dragonhouseroomprice']; ?></td>
+          <td><?php echo ' &#8369;'.   $_SESSION['dragonhouse_cart'][$i]['dragonhouseroomprice']; ?></td>
         </tr>
 <?php
        $payable += $_SESSION['dragonhouse_cart'][$i]['dragonhouseroomprice'] ;
@@ -242,13 +244,14 @@ for ($i=0; $i < $count_cart  ; $i++) {
  
 
     <div class="right"> 
-      <h3 style="text-align: right;">Total: &euro; <?php echo   $_SESSION['pay'] ;?></h3>
+      <h3 style="text-align: right;">Total: &#8369; <?php echo   $_SESSION['pay'] ;?></h3>
     </div>
     <br>
     <div class="">
        <button type="submit" class="button"  name="btnsubmitbooking">Submit Booking</button>
     </div>
   </div>   
+  <br>
 </form>
 
  

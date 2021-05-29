@@ -7,7 +7,7 @@
     <div class="row">
       <div class="col-sm-5">
         <div class="card">
-          <img class="card-img-top" src="https://lh3.googleusercontent.com/proxy/WiDT2e28Y7h1dJM8DPlIhPQdrTpCQh1HvOEPyYeOlyCNKXdG9hkVmBvpy4i3W8aDqn0SqM0NTw5JotbKiIo2qMTYnCbTeokmooI36vXOdrFyeKzx-WFlRNJCS0G60acsGsnfcauEgQ0iTW9uQrLi7xbooqg2k_76YYEMoOtERIYQXzQYSIL_ezzDRBvOtndikw" style="height: 280px; " alt="Card image cap">
+          <img class="card-img-top" src="https://keydifferences.com/wp-content/uploads/2016/04/parameter-vs-statistic1.jpg" style="height: 280px; " alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Rooms</h5>
             <p class="card-text">The guest house has got various rooms that are categorised accordion to types.

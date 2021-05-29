@@ -30,7 +30,7 @@ if(isset($_GET['id'])){
           <table class="table " id="table">
 
              <thead>
-              <tr  bgcolor="#999999">
+              <tr  bgcolor="black">
               <!-- <th width="10">#</th> -->
               <th align="center" class="text-white" width="120">Room</th>
               <th align="center" class="text-white" width="120">Check In</th>
@@ -41,8 +41,8 @@ if(isset($_GET['id'])){
               <th align="center" class="text-white" width="90">Action</th> 
             </tr> 
           </thead>
-          <tbody >
-              <div id="showcart"></div>
+          <tbody class="text-dark">
+              <div id="showcart" ></div>
 
               <div id="BookingCart">
             <?php 
@@ -66,7 +66,7 @@ if(isset($_GET['id'])){
                         echo '<td>'. $result->ROOM.' '. $result->ROOMDESC.' </td>';
                         echo '<td>'.date_format(date_create( $_SESSION['dragonhouse_cart'][$i]['dragonhousecheckin']),"m/d/Y").'</td>';
                         echo '<td>'.date_format(date_create( $_SESSION['dragonhouse_cart'][$i]['dragonhousecheckout']),"m/d/Y").'</td>';
-                        echo '<td > &euro;'. $result->PRICE.'
+                        echo '<td > &#8369;'. $result->PRICE.'
                           <input type="hidden" value="'.$result->PRICE.'"  name="roomprice'.$_SESSION['dragonhouse_cart'][$i]['dragonhouseroomid'].'" id="roomprice'.$_SESSION['dragonhouse_cart'][$i]['dragonhouseroomid'].'"/>
 
                         </td>'; 
@@ -92,7 +92,7 @@ if(isset($_GET['id'])){
             <tr>
            <td colspan="6"><h4 align="right" class="text-dark">Total:</h4></td>
            <td colspan="4">
-             <h4 class="text-dark"><b>&euro;<span id="sum"><?php  echo isset($_SESSION['pay']) ?  $_SESSION['pay'] :'Your booking cart is empty.';?></span></b></h4>
+             <h4 class="text-dark"><b>&#8369;<span id="sum"><?php  echo isset($_SESSION['pay']) ?  $_SESSION['pay'] :'Your booking cart is empty.';?></span></b></h4>
                          
             </td>
             </tr>
@@ -121,6 +121,7 @@ if(isset($_GET['id'])){
      
                
           </div>
+          <br>
                   
         </form>
        <?php

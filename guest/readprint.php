@@ -43,7 +43,7 @@ require_once("../includes/initialize.php");
      ?>
     <form action="<?php echo WEB_ROOT;; ?>guest/readprint.php?>" method="POST" target="_blank">
     <!-- Main content -->
-    <section class="invoice">
+    <section class="invoice text-dark">
       <!-- title row -->
       <div class="row">
         <div class="col-xs-12">
@@ -59,11 +59,11 @@ require_once("../includes/initialize.php");
         <div class="col-sm-4 invoice-col">
           From
           <address>
-            <strong>Monbela </strong><br>
-            795 Folsom Ave, Suite 600<br>
-            San Francisco, CA 94107<br>
-            Phone: (804) 123-5432<br>
-            Email: info@almasaeedstudio.com
+            <strong>SHILOH </strong><br>
+            Nasipit Road Talamban<br>
+            Cebu City<br>
+            Phone: +639483283180<br>
+            Email: shilohhotel@gmial.com
           </address>
         </div>
         <!-- /.col -->
@@ -123,11 +123,11 @@ require_once("../includes/initialize.php");
             <tr> 
               <td><?php echo $result->ACCOMODATION . ' [' .$result->ROOM.']' ;?></td>
               <td><?php echo $result->ROOMDESC . ' <br/> Person: ' .  $result->NUMPERSON;?></td>
-              <td> &euro; <?php echo $result->PRICE;?></td>
+              <td> &#8369; <?php echo $result->PRICE;?></td>
               <td><?php echo date_format(date_create($result->ARRIVAL),'m/d/Y');?></td>
               <td><?php echo date_format(date_create($result->DEPARTURE),'m/d/Y');?></td>
               <td><?php echo ($days==0) ? '1' : $days;?></td>
-              <td> &euro; <?php echo $result->RPRICE;?></td>
+              <td> &#8369; <?php echo $result->RPRICE;?></td>
             </tr>
             
             

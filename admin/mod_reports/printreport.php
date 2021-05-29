@@ -34,7 +34,7 @@ require_once("../../includes/initialize.php");
         <div class="col-xs-12">
           <h2 class="page-header">
             <i class="fa fa-globe"></i>  
-            SHILOH
+            SHILOH HOTEL
             <small class="pull-right">Date: <?php echo date('m/d/Y'); ?></small>
           </h2>
         </div>
@@ -94,11 +94,11 @@ require_once("../../includes/initialize.php");
             <tr> 
               <td><?php echo $result->G_FNAME . ' ' .  $result->G_LNAME;?></td>
               <td><?php echo $result->ACCOMODATION . ' [' .$result->ROOM.']' ;?></td>
-              <td> &euro; <?php echo $result->PRICE;?></td>
+              <td> &#8369; <?php echo $result->PRICE;?></td>
               <td><?php echo date_format(date_create($result->ARRIVAL),'m/d/Y');?></td>
               <td><?php echo date_format(date_create($result->DEPARTURE),'m/d/Y');?></td>
               <td><?php echo ($days==0) ? '1' : $days;?></td>
-              <td> &euro; <?php echo $result->RPRICE;?></td>
+              <td> &#8369; <?php echo $result->RPRICE;?></td>
             </tr>
             
             
@@ -128,7 +128,7 @@ require_once("../../includes/initialize.php");
             <table class="table">
               <tr>
                 <th style="width:50%">Total:</th>
-                <td > &euro; <?php echo @$tot ; ?></td>
+                <td > &#8369; <?php echo @$tot ; ?></td>
               </tr>
        
             </table>
